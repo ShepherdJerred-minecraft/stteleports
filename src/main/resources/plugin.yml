@@ -1,0 +1,55 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Jerred Shepherd (RiotShielder)
+website: http://shepherdjerred.com/
+
+soft-depend: [Vault]
+
+main: com.shepherdjerred.stteleports.Main
+
+permissions:
+    stTeleports.*:
+        description: Gives access to all plugin functions
+        children:
+            stTeleports.admin.*: true
+    stTeleports.admin.*:
+        description: Gives access to all admin commands
+        children:
+          stTeleports.admin.reload: true
+    stTeleports.admin.reload:
+        description: Gives access to /sttp reload
+        default: OP
+    stTeleports.teleport.teleport:
+        description: Gives access to /teleport
+        default: OP
+    stTeleports.teleport.forward:
+        description: Gives access to /forward
+        default: OP
+    stTeleports.teleport.backward:
+        description: Gives access to /backward
+        default: OP
+    stTeleports.teleport.home:
+        description: Gives access to /home
+        default: true
+    stTeleports.sethome:
+        description: Gives access to /sethome
+        default: true
+    stTeleports.teleport.home:
+        description: Gives access to /home
+        default: true
+    stTeleports.teleport.spawn:
+        description: Gives access to /spawn
+        default: true
+    stTeleports.help:
+        description: Gives access to /stteleports help
+        default: true
+    stTeleports.teleport.request.send:
+        description: Gives access to /tpa send
+        default: true
+    stTeleports.teleport.request.accept:
+        description: Gives access to /tpa accept
+        default: true
+    stTeleports.teleport.request.decline:
+        description: Gives access to /tpa decline
+        default: true

@@ -1,0 +1,56 @@
+{
+  "teleport": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "tphere": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "tppos": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "home": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "spawn": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "tpa": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "tpahere": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "backward": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  },
+  "forward": {
+    "cooldown": 10,
+    "cost": 25,
+    "cooldown-multiplier": 0.5,
+    "cost-multiplier": 0.5
+  }
+}
